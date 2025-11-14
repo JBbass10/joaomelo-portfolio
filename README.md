@@ -2,9 +2,9 @@
 
 Portfólio de **Técnico Eletroeletrônico & Desenvolvedor**, com projetos de automação, integração de dados e aplicações web.
 
-🔗 **Site:** https://SEU-USUARIO.github.io/NOME-DO-REPO/  
-💼 **LinkedIn:** https://www.linkedin.com/in/SEU-USERNAME  
-💻 **GitHub:** https://github.com/SEU-USUARIO
+🔗 **Site:** https://JBbass10.github.io/joaomelo-portfólio/  
+💼 **LinkedIn:** https://www.linkedin.com/in/JoãoBatista 
+💻 **GitHub:** https://github.com/JBbass10
 
 ## 🧭 Seções
 - **Home:** apresentação e resumo
