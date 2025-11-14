@@ -2,7 +2,7 @@
 
 Portfólio de **Técnico Eletroeletrônico & Desenvolvedor**, com projetos de automação, integração de dados e aplicações web.
 
-🔗 **Site:** https://JBbass10.github.io/joaomelo-portfólio/  
+🔗 **Site:** https://JBbass10.github.io/joaomelo-portfolio/  
 💼 **LinkedIn:** https://www.linkedin.com/JoãoBatista  
 💻 **GitHub:** https://github.com/JBbass10
 
