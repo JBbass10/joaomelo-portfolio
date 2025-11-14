@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>João Batista Pedro de Melo — Portfólio</title>
+  <meta name="description" content="Portfólio de João Batista Pedro de Melo — Técnico Eletroeletrônico e Desenvolvedor. Automação, CLP Altus, SQL Server, Power BI, React, Node.js e IA aplicada." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/avatar.jpg">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="Início">
+        <span class="brand__logo">JB</span>
+        <span class="brand__text">João B. P. de Melo</span>
+      </a>
+      <nav class="menu" id="menu">
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn--ghost" href="assets/CV-Joao-Melo.pdf" download>Baixar CV</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Alternar tema">🌓</button>
+        <button class="icon-btn burger" id="burger" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero__grid">
+      <div class="hero__left">
+        <h1>Técnico Eletroeletrônico & Desenvolvedor</h1>
+        <p class="muted">
+          Automação industrial, integração com <strong>SQL Server</strong>, <strong>Power BI</strong> e <strong>Power Automate</strong>, 
+          programação de <strong>CLPs Altus XP315</strong>, visão computacional e <strong>IA aplicada</strong> a manutenção.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+          <a class="btn btn--ghost" href="#contato">Falar no WhatsApp</a>
+        </div>
+        <ul class="hero__badges">
+          <li>React / Node.js</li>
+          <li>Grafana / Power BI</li>
+          <li>Automação & CLP</li>
+          <li>SQL Server</li>
+        </ul>
+      </div>
+      <div class="hero__right">
+        <img src="assets/banner.jpg" alt="Painel de automação e dashboards" class="hero__image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section class="section" id="projetos">
+    <div class="container">
+      <div class="section__head">
+        <h2>Projetos em Destaque</h2>
+        <p class="muted">Alguns trabalhos que conectam chão de fábrica, dados e software.</p>
+      </div>
+
+      <div class="grid cards">
+        <!-- Projeto 1 -->
+        <article class="card">
+          <img src="assets/projeto-1.jpg" alt="Dashboard técnico em Power BI" class="card__image" />
+          <div class="card__body">
+            <h3>Dashboard Técnico — Power BI + SQL Server</h3>
+            <p>KPIs de manutenção: OS por máquina/setor/técnico, MTTR, tempo parado, fila. Conexão direta ao SQL Server e fluxo em tempo real via Power Automate.</p>
+            <div class="tags">
+              <span>Power BI</span><span>SQL Server</span><span>Power Automate</span>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Ver detalhes</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Repositório</a>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="card">
+          <img src="assets/projeto-2.jpg" alt="Classificador de prioridades de OS com IA" class="card__image" />
+          <div class="card__body">
+            <h3>IA de Classificação de OS (Defeito & Prioridade)</h3>
+            <p>Classifica chamados por categoria (Inversor, Motor, Sensor...) e valida a prioridade com base na descrição e no laudo técnico.</p>
+            <div class="tags">
+              <span>IA aplicada</span><span>Node.js</span><span>SQL Server</span>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Case</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Repositório</a>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="card">
+          <img src="assets/projeto-3.jpg" alt="Catraca DIMEP integrada ao sistema" class="card__image" />
+          <div class="card__body">
+            <h3>Controle de Acesso — Sala de Jogos (DIMEP)</h3>
+            <p>Integração TCP/IP via módulo Tibbo, leitura por crachá e exibição em painel web com contagem regressiva e tema técnico.</p>
+            <div class="tags">
+              <span>Redes</span><span>JavaScript</span><span>DIMEP/Tibbo</span>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Repositório</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência -->
+  <section class="section section--alt" id="experiencia">
+    <div class="container">
+      <div class="section__head">
+        <h2>Experiência</h2>
+        <p class="muted">Automação, manutenção e desenvolvimento de soluções sob medida.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Projeto Embarca Tech — Líder Técnico</h3>
+            <p class="muted">Visão computacional para controle de qualidade e grupo de manutenção preditiva.</p>
+            <span class="pill">2024–Atual</span>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>CLP Altus XP315 — Programação & Integração</h3>
+            <p class="muted">Rotinas de I/O, redes industriais e integração com sistemas supervisórios.</p>
+            <span class="pill">2023–Atual</span>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>SQL Server + Power BI + Power Automate</h3>
+            <p class="muted">ETL, modelagem e dashboards de manutenção em tempo real.</p>
+            <span class="pill">2023–Atual</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="section" id="habilidades">
+    <div class="container">
+      <div class="section__head">
+        <h2>Habilidades</h2>
+        <p class="muted">Stack técnico e ferramentas do dia a dia.</p>
+      </div>
+
+      <div class="skills">
+        <div>
+          <h4>Automação & Indústria</h4>
+          <ul>
+            <li>CLP Altus XP315</li>
+            <li>Redes TCP/IP, Modbus</li>
+            <li>Sensores, inversores, motores</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Dados & Dashboards</h4>
+          <ul>
+            <li>SQL Server (T-SQL)</li>
+            <li>Power BI, Grafana</li>
+            <li>Power Automate</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Desenvolvimento</h4>
+          <ul>
+            <li>JavaScript, React, Node.js</li>
+            <li>HTML, CSS</li>
+            <li>APIs REST</li>
+          </ul>
+        </div>
+        <div>
+          <h4>IA & Visão</h4>
+          <ul>
+            <li>Classificação de textos</li>
+            <li>Conceitos de visão computacional</li>
+            <li>Automação de atendimento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificados -->
+  <section class="section section--alt" id="certificados">
+    <div class="container">
+      <div class="section__head">
+        <h2>Certificados</h2>
+        <p class="muted">Cursos e formações concluídas.</p>
+      </div>
+
+      <div class="grid certs">
+        <figure class="cert">
+          <img src="assets/certificado-1.jpg" alt="Certificado 1" />
+          <figcaption>DIO — Bootcamp Backend</figcaption>
+        </figure>
+        <figure class="cert">
+          <img src="assets/certificado-1.jpg" alt="Certificado 2" />
+          <figcaption>Microsoft Learn — Azure Fundamentals</figcaption>
+        </figure>
+        <figure class="cert">
+          <img src="assets/certificado-1.jpg" alt="Certificado 3" />
+          <figcaption>Curso em Vídeo — Python</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section" id="contato">
+    <div class="container contact">
+      <div>
+        <h2>Contato</h2>
+        <p class="muted">Aberto a consultoria, freelas e projetos de automação e software.</p>
+        <ul class="contact__list">
+          <li><strong>E-mail:</strong> <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">linkedin.com/in/joaomelo</a></li>
+          <li><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener">github.com/joaomelo</a></li>
+          <li><strong>WhatsApp:</strong> <a class="pill" href="https://wa.me/55SEUNUMERO?text=Oi%20Jo%C3%A3o,%20vi%20seu%20portf%C3%B3lio!" target="_blank" rel="noopener">Chamar no WhatsApp</a></li>
+        </ul>
+      </div>
+      <form class="contact__form" onsubmit="event.preventDefault(); alert('Obrigado! Entrarei em contato.');">
+        <label>
+          Nome
+          <input type="text" placeholder="Seu nome" required>
+        </label>
+        <label>
+          E-mail
+          <input type="email" placeholder="seu@email.com" required>
+        </label>
+        <label>
+          Mensagem
+          <textarea rows="5" placeholder="Conte um pouco sobre seu projeto"></textarea>
+        </label>
+        <button class="btn btn--primary" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> João Batista Pedro de Melo. Todos os direitos reservados.</p>
+      <a href="#top" class="pill">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- JS opcional -->
+  <script src="script.js"></script>
+  <script>
+    // Fallback: ano automático
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
